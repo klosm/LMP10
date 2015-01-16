@@ -99,7 +99,7 @@ d3fi(double a, double b, int n, int i, double x){
         d2p1 = d2fi(a, b, n, index, x);
         d3p0 = d3p1;
         d3p1 = d3p2;
-    }s
+    }
     return d3p2;
 }
 
