@@ -5,7 +5,7 @@
 
 double fun( double x ) {
 				double r= ((double)rand() - RAND_MAX/2.0)/RAND_MAX/5; // +-10%
-				return (1+r)*(x);
+				return (1+r)*((x*x)-4);
 }
 
 int main( int argc, char **argv ) {
